@@ -18,14 +18,12 @@ pipeline {
     stage('Packaging') {
       steps {
         echo 'Packaging'
-        pysh 'packaging'
       }
     }
 
     stage('CommitIpa') {
       steps {
         echo 'CommitIpa'
-        pysh 'commit_ipa'
       }
     }
 
