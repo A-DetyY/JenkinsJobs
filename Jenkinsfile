@@ -12,6 +12,7 @@ pipeline {
       steps {
         echo 'UpdateProject'
         pybat(script: 'E:\\update_project.py', returnStatus: true, returnStdout: true)
+        echo 'LOL'
       }
     }
 
