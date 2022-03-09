@@ -11,7 +11,7 @@ pipeline {
     stage('UpdateProject') {
       steps {
         echo 'UpdateProject'
-        pybat 'E:\\update_project.py'
+        pybat(script: 'E:\\update_project.py', returnStatus: true, returnStdout: true)
       }
     }
 
