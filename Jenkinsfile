@@ -11,7 +11,7 @@ pipeline {
     stage('UpdateProject') {
       steps {
         echo 'UpdateProject'
-        pysh '/var/jenkins_home/pyfiles/update_project.py'
+        pybat 'E:\\update_project.py'
       }
     }
 
