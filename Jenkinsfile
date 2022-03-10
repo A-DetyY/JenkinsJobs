@@ -5,6 +5,7 @@ pipeline {
       steps {
         echo 'CheckRunningPlatform'
         isUnix()
+        echo 'Hello Hello'
       }
     }
 
