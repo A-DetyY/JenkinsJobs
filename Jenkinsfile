@@ -12,7 +12,6 @@ pipeline {
       steps {
         echo 'UpdateProject'
         echo 'LOL'
-        sh 'python3 E:\\update_project.py'
       }
     }
 
